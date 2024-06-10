@@ -1,0 +1,192 @@
+sudo apt update
+    2  sudo nano /etc/resolv.conf 
+    3  sudo apt update
+    4  sudo apt upgrade
+    5  sudo apt install gcc++
+    6  sudo apt install gcc
+    7  sudo apt install build-essentials
+    8  sudo apt install build-essential
+    9  sudo apt install gdb
+   10  init 0
+   11  gcc --version
+   12  cd "/home/rps/Desktop/C Demo/" && gcc first.c -o first && "/home/rps/Desktop/C Demo/"first
+   13  sudo su
+   14  tar xvfz node_exporter-1.7.0.linux-amd64.tar.gz 
+   15  cd node_exporter-1.7.0.linux-amd64/
+   16  sudo mv node_exporter /usr/local/bin/
+   17  sudo tee /etc/systemd/system/node_exporter.service<<EOF
+   18  [Unit]
+   19  Description=Node Exporter
+   20  After=network.target
+   21   
+   22  [Service]
+   23  User=rps
+   24  Group=rps
+   25  Type=simple
+   26  ExecStart=/usr/local/bin/node_exporter
+   27   
+   28  [Install]
+   29  WantedBy=multi-user.target
+   30  EOF
+   31  sudo systemctl daemon-reload
+   32  sudo systemctl start node_exporter
+   33  sudo systemctl enable node_exporter
+   34  sudo systemctl status node_exporter
+   35  sudo apt install gcc
+   36  sudo apt install git
+   37  sudo apt install make
+   38  sudo apt install vim
+   39  sudo apt install g++
+   40  sudo apt install gedit
+   41  sudo apt install cmake
+   42  sudo apt install g++
+   43  cd
+   44  sudo apt update -y
+   45  sudo apt install mysql-server
+   46  sudo systemctl status mysql.service 
+   47  sudo mysql
+   48  sudo mysql_secure_installation
+   49  sudo mysql
+   50  sudo mysql_secure_installation
+   51  sudo mysql -u root -p
+   52  sudo snap install mysql-workbench-community
+   53  cd
+   54  java -version
+   55  java --version
+   56  java --V
+   57  java -vesion
+   58  cd
+   59  sudo apt install gnome-shell-extension-manager -y
+   60  sudo chmod o-x /sbin/shutdown
+   61  sudo chmod o-x /sbin/reboot
+   62  init 0
+   63  init 6
+   64  java -version
+   65  sudo apt update
+   66  java -version
+   67  sudo apt install default-jre
+   68  java -version
+   69  sudo apt install default-jdk
+   70  javac -version
+   71  sudo snap install --classic eclipse
+   72  sudo apt update
+   73  sudo apt install default-jre
+   74  eclipse
+   75  sudo snap install intellij-idea-community --classic
+   76  sudo init 0
+   77  sudo bash install.sh
+   78  sudo apt --fix-broken install
+   79  sudo bash install.sh
+   80  cd
+   81  sudo apt install git -y
+   82  sudo init 0
+   83  sudo service oracle-xe start
+   84  ls
+   85  type top
+   86  which ls
+   87  which docker
+   88  who
+   89  who am i
+   90  ping google.com
+   91  type top
+   92  which ls
+   93  which docker
+   94  who
+   95  who am i
+   96  clear
+   97  history
+   98  ls
+   99  pwd
+  100  cd
+  101  jk
+  102  mkdir
+  103  clear
+  104  ls
+  105  ls/Desktop
+  106  sudo bash install.sh
+  107  cd Desktop
+  108  cd..
+  109  pwd
+  110  mkdir test
+  111  rm test
+  112  rmdir test
+  113  touch file1.txt
+  114  gzip file1.txt
+  115  rm file1
+  116  rm file1.txt.gz
+  117  cd..
+  118  cd Desktop
+  119  touch file1
+  120  gzip file1.txt
+  121  touch file1.txt
+  122  gzip file1.txt.gz
+  123  gzip file1.txt
+  124  rm file1.txt.gz
+  125  cd Desktop
+  126  touch file1.txt
+  127  vim file1.txt
+  128  sort file1.txt
+  129  sort -r file1.txt
+  130  man sort
+  131  uniq file1.txt
+  132  uniq -u file1.txt
+  133  sort file1.txt | uniq -c | sort -nr
+  134  vim file3.txt
+  135  diff file1.txt file33.txt
+  136  diff file1.txt file3.txt
+  137  echo "hello"
+  138  echo "hello" file2.txt
+  139* 
+  140  echo*
+  141  sudo apt install <deb name>
+  142  echo *
+  143  echo f*
+  144  echo a*
+  145  echooooooooo {1.....10)
+  146  echo(1..10)
+  147  echo (1..10)
+  148  chown x file1.txt
+  149  chown rps file1.txt
+  150  la -al
+  151  chmod a+r file1.txt
+  152  ls -al
+  153  umask
+  154  umask -s
+  155  umask -S
+  156  du
+  157  du *
+  158  du -h
+  159  du -g Desktop | sort -nr
+  160  du -h Desktop | sort -nr
+  161  cd..
+  162  cd Desktop
+  163  df
+  164  df -h
+  165  df dev
+  166  basename file1.txt
+  167  dirname file1.txt
+  168  dirname Desktop/file1.txt
+  169  cd Desktop
+  170  ps
+  171  ps ax
+  172  type ls
+  173  type cat
+  174  type pwd
+  175  type top
+  176  which ls
+  177  which docker
+  178  who
+  179  who am i
+  180  traceroute google.com
+  181  clear
+  182  history
+  183  crontan -l
+  184  crontab -l
+  185  uname
+  186  uname -mp
+  187  uname -srv
+  188  uname -n
+  189  uname -a
+  190  printenv PATH
+  191  history
+
